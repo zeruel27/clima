@@ -4,16 +4,16 @@ const data3= [
     id: 1,
     title:"Mar",
     icon:"☁️",
-    text:"29",
-    text2:"10",
+    text:"17",
+    text2:"9",
     text3:"nublado"
 
 },{
     id: 2,
     title:"Mié",
     icon:"☀️",
-    text:"27",
-    text2:"10",
+    text:"20",
+    text2:"12",
     text3:"Soleado"
     
 },
@@ -21,8 +21,8 @@ const data3= [
     id: 3,
     title:"Jue",
     icon:"☀️",
-    text:"27",
-    text2:"9",
+    text:"22",
+    text2:"12",
     text3:"Soleado"
     
 },
@@ -39,8 +39,8 @@ const data3= [
     id: 5,
     title:"Sab",
     icon:"⛅",
-    text:"23",
-    text2:"10",
+    text:"22",
+    text2:"14",
     text3:"Nublado",
     
     

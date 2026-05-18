@@ -3,17 +3,17 @@ const data7= [
 {
     id: 1,
     title:"Mar",
-    icon:"❄️",
-    text:"29",
-    text2:"10",
-    text3:"nieve"
+    icon:"☀️",
+    text:"26",
+    text2:"17",
+    text3:"soleado"
 
 },{
     id: 2,
     title:"Mié",
     icon:"☀️",
-    text:"27",
-    text2:"10",
+    text:"24",
+    text2:"17",
     text3:"Soleado"
     
 },
@@ -21,8 +21,8 @@ const data7= [
     id: 3,
     title:"Jue",
     icon:"☀️",
-    text:"27",
-    text2:"9",
+    text:"25",
+    text2:"16",
     text3:"Soleado"
     
 },
@@ -30,18 +30,18 @@ const data7= [
     id: 4,
     title:"Vie",
     icon:"☀️",
-    text:"26",
-    text2:"12",
+    text:"27",
+    text2:"18",
     text3:"Soleado"
     
 },
 {
     id: 5,
     title:"Sab",
-    icon:"⛅",
-    text:"23",
-    text2:"10",
-    text3:"Nublado",
+    icon:"☀️",
+    text:"29",
+    text2:"20",
+    text3:"Despejado",
     
     
 }
