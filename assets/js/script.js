@@ -6,24 +6,24 @@ const data= [
     text:"19",
     text2:"2",
     url:"detalles.html",
-
-    
+   
   
 
 },{
     id: 2,
     title:"Madrid",
-    text:"12",
-    text2:"3",
+    text:"23",
+    text2:"12",
     url:"detalles 2.html",
+  
     
     
 },
 {
     id: 3,
     title:"Londres",
-    text:"2",
-    text2:"8",
+    text:"13",
+    text2:"18",
     url:"detalles 3.html",
     
     
@@ -31,17 +31,18 @@ const data= [
 {
     id: 4,
     title:"Moscu",
-    text:"2",
-    text2:"6",
+    text:"28",
+    text2:"8",
+   
     
     
 },
 {
     id: 5,
     title:"Buenos aires",
-    text:"18",
+    text:"14",
     text2:"9",
-    
+  
     
 },
 ]
@@ -49,8 +50,8 @@ const data2= [
 {
     id: 6,
     title:"Berlin",
-    text:"3",
-    text2:"3",
+    text:"19",
+    text2:"10",
     url:"detalles 6.html",
     
     
@@ -59,7 +60,7 @@ const data2= [
 {
     id: 7,
     title:"Beijing",
-    text:"11",
+    text:"18",
     text2:"3",
     url:"detalles 7.html",
     
@@ -69,8 +70,8 @@ const data2= [
 {
     id: 8,
     title:"Nueva york",
-    text:"3",
-    text2:"7",
+    text:"31",
+    text2:"17",
     
     
     
@@ -79,7 +80,7 @@ const data2= [
 {
     id: 9,
     title:"Tokyo",
-    text:"14",
+    text:"17",
     text2:"4",
     
     
@@ -88,8 +89,8 @@ const data2= [
 {
     id: 10,
     title:"Paris",
-    text:"11",
-    text2:"5",
+    text:"14",
+    text2:"6",
     
     
 },
@@ -99,7 +100,7 @@ const data2= [
 const container = document.getElementById("container")
 
 for (let i = 0; i < data.length; i++){
-
+   
 
 container.innerHTML += `
 <div class="col-12 col-md-2">
@@ -112,7 +113,6 @@ container.innerHTML += `
             <p class="card-text">
             <h1 class="bi bi-thermometer-half">${data[i].text}&deg;C</h1>
             <h2 class="bi bi-wind">${data[i].text2}km/h</h2>
-            </p>
           </div>
         </div>
       </div>
@@ -120,6 +120,8 @@ container.innerHTML += `
 `
 
 }
+
+
 
 const container2 = document.getElementById("container2")
 
