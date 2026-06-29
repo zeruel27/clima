@@ -1,4 +1,14 @@
 <script setup>
+import { useAuthStore } from '../stores/auth'
+import { useRouter } from 'vue-router'
+
+const authStore = useAuthStore()
+const router = useRouter()
+
+const handleLogout = () => {
+  authStore.logout()
+  router.push('/login') // Redirigir inmediatamente al login
+}
 
 </script>
 
@@ -30,6 +40,10 @@
             <button class="btn btn-success" type="submit">
               Search
             </button>
+                <div v-if="authStore.isAuthenticated" class="user-section">
+               <span>Hola, {{ authStore.user?.name }}</span>
+              <button @click="handleLogout" class="btn-logout">Cerrar Sesión</button>
+            </div>
           </form>
         </div>
       </div>
@@ -41,6 +55,24 @@
 .navbar {
   border-radius: 10px;
   box-shadow: 10px 10px 5px grey;
-  
+  };
+   .user-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  margin-left: auto;
 }
+
+  .btn-logout {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-logout:hover {
+  background-color: #bd2130;
+};
 </style>

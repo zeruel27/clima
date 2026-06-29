@@ -1,6 +1,10 @@
 # clima vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Es una pagina para revisar el clima para diferentes cuidades del mundo
+
+## Url 
+
+Se adjunta URL para revision de repositorio https://github.com/zeruel27/clima.git
 
 ## Recommended IDE Setup
 
