@@ -75,4 +75,4 @@ const handleLogout = () => {
 .btn-logout:hover {
   background-color: #bd2130;
 }
-</style>
+</style> 
