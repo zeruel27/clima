@@ -55,8 +55,8 @@ const handleLogout = () => {
 .navbar {
   border-radius: 10px;
   box-shadow: 10px 10px 5px grey;
-  };
-   .user-section {
+  }
+.user-section {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -74,5 +74,5 @@ const handleLogout = () => {
 }
 .btn-logout:hover {
   background-color: #bd2130;
-};
+}
 </style>
