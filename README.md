@@ -6,6 +6,8 @@ Es una pagina para revisar el clima para diferentes cuidades del mundo
 
 Se adjunta URL para revision de repositorio https://github.com/zeruel27/clima.git
 
+## Login
+Se crea login para la pagina restringiendo acceso hasta colocar usuario user@example.com y clave 123456 se crea boton de cierre de sesion y con identificacion de usuario
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
